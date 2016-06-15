@@ -24,3 +24,6 @@ index.js:5 jQuery aliased as `$` ( selector, context ) {
 		return ne…
 index.js:6 Test jQuery [body, prevObject: jQuery.fn.init[1], context: document, selector: "body"]0: bodycontext: documentlength: 1prevObject: jQuery.fn.init[1]selector: "body"__proto__: Object[0]
 ```
+
+
+Thanks to @DavidStrada for [this repo](https://github.com/DavidStrada/bootstrap4_jspm_cli_v0.17.0-beta.17)
