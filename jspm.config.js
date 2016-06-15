@@ -32,8 +32,7 @@ SystemJS.config({
     "github:*/*.json"
   ],
   map: {
-    "bootstrap": "github:twbs/bootstrap@4.0.0-alpha.2",
-    "jquery": "npm:jquery@2.2.4"
+    "bootstrap": "github:twbs/bootstrap@4.0.0-alpha.2"
   },
   packages: {
     "github:twbs/bootstrap@4.0.0-alpha.2": {

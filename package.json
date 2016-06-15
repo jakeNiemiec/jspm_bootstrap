@@ -1,15 +1,16 @@
 {
   "scripts": {
     "start": "./node_modules/.bin/http-server",
-    "postinstall": "typings install && jspm i",
-    "typings": "typings install"
+    "postinstall": "jspm i"
+  },
+  "devDependencies": {
+    "jspm": "^0.17.0-beta.22"
   },
   "jspm": {
     "name": "app",
     "main": "src/index.js",
     "dependencies": {
-      "bootstrap": "github:twbs/bootstrap@4.0.0-alpha.2",
-      "jquery": "npm:jquery@^2.2.4"
+      "bootstrap": "github:twbs/bootstrap@4.0.0-alpha.2"
     },
     "devDependencies": {
       "plugin-babel": "npm:systemjs-plugin-babel@^0.0.12"
@@ -51,10 +52,5 @@
         "format": "amd"
       }
     }
-  },
-  "devDependencies": {
-    "bootstrap": "^4.0.0-alpha.2",
-    "http-server": "^0.9.0",
-    "jspm": "^0.17.0-beta.17"
   }
 }
