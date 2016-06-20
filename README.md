@@ -1,4 +1,4 @@
-# jspm :black_square_button: + bootstrap :boot: Example
+# jspm + Bootstrap Example
 #### Setting Up
 
 Run
