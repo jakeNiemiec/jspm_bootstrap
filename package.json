@@ -1,10 +1,11 @@
 {
   "scripts": {
-    "start": "./node_modules/.bin/http-server",
+    "start": "lite-server",
     "postinstall": "jspm i"
   },
   "devDependencies": {
-    "jspm": "^0.17.0-beta.22"
+    "jspm": "^0.17.0-beta.22",
+    "lite-server": "^2.2.2"
   },
   "jspm": {
     "name": "app",
